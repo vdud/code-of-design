@@ -12,7 +12,7 @@ export const github = 'https://github.com/mattcroat';
 
 export const api = 'https://api.github.com';
 export const owner = 'vdud';
-export const repo = 'code-with-design';
+export const repo = 'code-of-design';
 export const path = 'posts';
 
 export const categories = {
