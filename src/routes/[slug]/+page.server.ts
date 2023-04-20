@@ -1,7 +1,10 @@
 import { getPost } from '$lib/api/posts';
+import { dataPosts } from '$db/collections';
 
 export const load = async ({ params, setHeaders }) => {
 	const { content, frontmatter } = await getPost(params.slug);
+
+	dataPosts.updateOne({ slug: params.slug }, { $inc: { views: 1 } });
 
 	const day = 60 * 60 * 24 * 1000;
 	const published = frontmatter.published;

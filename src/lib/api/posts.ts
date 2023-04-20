@@ -41,34 +41,35 @@ export async function getRateLimit(): Promise<RateType> {
 /**
  * Get posts data from `data/posts.json` on GitHub
  */
-export async function getPostsData() {
-	const response = await fetch(postsDataUrl, {
+export const getPostsData = async () => {
+	const res = await fetch('/api/postData', {
+		method: 'POST',
 		headers: {
-			...headers,
-			// https://docs.github.com/en/rest/overview/media-types
-			Accept: 'application/vnd.github.v3.raw'
-		}
+			'Content-Type': 'application/json'
+		},
+		body: JSON.stringify({ hello: 'hello' })
 	});
-
-	if (!response.ok) {
+	const resp = await res.json();
+	if (!res.ok) {
 		throw new Error('💩 Could not fetch posts');
 	}
 
-	const posts: PostType[] = await response.json();
+	const posts: PostType[] = await resp.json();
+
 	return posts;
-}
+};
 
 /**
  * Turn posts from GitHub into categories
  */
-export async function getPosts(): Promise<PostsType> {
-	const data = await getPostsData();
+export async function getPosts(allPosts: any): Promise<PostsType> {
+	const data = allPosts;
 	const postLimit = 4;
 	const characterLimit = 80;
 
 	const posts = data
-		.filter((post) => !post.draft)
-		.map((post) => {
+		.filter((post: any) => !post.draft)
+		.map((post: any) => {
 			const descriptionLength = post.description.length;
 			const ellipsis = descriptionLength > characterLimit ? '...' : '';
 			const description = post.description.substring(0, characterLimit) + ellipsis;
@@ -133,7 +134,6 @@ export async function getPostsByCategory(category: string): Promise<PostType[]> 
  */
 export async function getPost(slug: string): Promise<PostMarkdownType> {
 	const postUrl = `${postsUrl}/${slug}/${slug}.md`;
-	console.log('postUrl', postUrl);
 
 	const response = await fetch(postUrl, {
 		headers: {
