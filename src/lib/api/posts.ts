@@ -1,7 +1,7 @@
 import { GH_TOKEN } from '$env/static/private';
 
 import { markdownToHTML } from './markdown';
-import { postsDataUrl, postsUrl } from './config';
+import { postsUrl } from './config';
 import type { PostMarkdownType, PostsType, PostType, RateType } from '$lib/types';
 
 const headers = {
