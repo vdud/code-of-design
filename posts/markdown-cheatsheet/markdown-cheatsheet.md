@@ -13,6 +13,118 @@ series: false
 
 ## Table of Contents
 
+## Heading
+
+| Markdown | Output |
+| -------- | ------ |
+| `# H1`   | # H1   |
+| `## H2`  | ## H2  |
+| `### H3` | ### H3 |
+
+## Bold
+
+| Markdown   | Output   |
+| ---------- | -------- |
+| `**Bold**` | **Bold** |
+
+## Italic
+
+| Markdown   | Output   |
+| ---------- | -------- |
+| `*Italic*` | _Italic_ |
+
+## Strikethrough
+
+| Markdown            | Output            |
+| ------------------- | ----------------- |
+| `~~Strikethrough~~` | ~~Strikethrough~~ |
+
+## Blockquote
+
+| Markdown      | Output      |
+| ------------- | ----------- |
+| `> Backquote` | > Backquote |
+
+## Code
+
+| Markdown     | Output |
+| ------------ | ------ |
+| `` `Code` `` | `Code` |
+
+## Horizontal Rule
+
+| Markdown | Output |
+| -------- | ------ |
+| `---`    | ---    |
+
+## Unordered List
+
+| Markdown | Output |
+| -------- | ------ |
+| `- Item` | - Item |
+
+## Ordered List
+
+| Markdown  | Output  |
+| --------- | ------- |
+| `1. Item` | 1. Item |
+
+## Link
+
+| Markdown                     | Output                     |
+| ---------------------------- | -------------------------- |
+| `[Link](https://google.com)` | [Link](https://google.com) |
+
+## Image
+
+## Inline Code
+
+| Markdown        | Output        |
+| --------------- | ------------- |
+| `Inline `code`` | Inline `code` |
+
+## Emoji
+
+| Markdown   | Output |
+| ---------- | ------ |
+| `:smile:`  | 😄     |
+| `:rocket:` | 🚀     |
+
+## Footnote
+
+| Markdown | Output |
+| -------- | ------ |
+| `[^1]`   | [^1]   |
+
+[^1]: Footnote
+
+## Math
+
+| Markdown                | Output                |
+| ----------------------- | --------------------- |
+| `$\sqrt{3x-1}+(1+x)^2$` | $\sqrt{3x-1}+(1+x)^2$ |
+| `$\2^3$`                | $\2^3$                |
+
+## Task List
+
+| Markdown | Output |
+| -------- | ------ |
+| `- [x]`  | - [x]  |
+| `- [ ]`  | - [ ]  |
+
+## Definition List
+
+| Markdown       | Output       |
+| -------------- | ------------ |
+| `Term`         | Term         |
+| `: Definition` | : Definition |
+
+## Abbreviation
+
+| Markdown                             | Output                              |
+| ------------------------------------ | ----------------------------------- |
+| `*[HTML]: HyperText Markup Language` | \*[HTML]: HyperText Markup Language |
+
 ## Audio Video
 
 {% img src="crossfade.webp" alt="Diagram showing how crossfade works" %}
