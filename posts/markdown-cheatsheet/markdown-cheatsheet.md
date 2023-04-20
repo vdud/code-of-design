@@ -7,7 +7,7 @@ category: svelte
 series: false
 ---
 
-# Create Amazing User Interfaces Using Animation With Svelte
+# Markdown CheatSheet
 
 {% youtube id="3RlBfUQCiAQ" title="Animation With Svelte" %}
 
