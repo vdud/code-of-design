@@ -102,7 +102,8 @@ th {
 	row-gap: var(--spacing-8);
 	list-style-type: none;
 	background-color: var(--tertiaryTheme);
-	border-bottom: 3px solid var(--tertiaryThemeInverted);
+	border-top: 3px solid var(--tertiary);
+	border-bottom: 3px solid var(--tertiary);
 	border-radius: 10px;
 
 	padding: 10px 20px;

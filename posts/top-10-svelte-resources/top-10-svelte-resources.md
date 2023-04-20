@@ -7,7 +7,7 @@ category: svelte
 series: false
 ---
 
-# Markdown CheatSheet
+# Top 10 Svelte Resources
 
 ## Table of Contents
 
