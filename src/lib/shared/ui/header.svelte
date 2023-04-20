@@ -29,7 +29,7 @@
 	.header {
 		border-radius: 10px;
 		margin-top: 10px;
-		/* margin: 2vw; */
+		margin: 2vw;
 		color: var(--primaryTheme);
 
 		box-shadow: var(--shadow-lg);
