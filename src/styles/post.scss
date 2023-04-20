@@ -49,6 +49,45 @@
 	margin-bottom: var(--spacing-32);
 }
 
+// Table Start
+.prose table {
+	border-collapse: collapse;
+	width: 100%;
+	text-align: left;
+	background-color: #fff1;
+	overflow: hidden;
+
+	// border-radius: 10px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	overflow: hidden;
+
+	box-shadow: var(--shadow-md);
+
+	margin-bottom: 10px;
+}
+
+th,
+td {
+	padding: 8px;
+	text-align: left;
+	border: 1px solid #eee;
+}
+
+th {
+	background-color: #eee;
+	color: var(--black);
+}
+
+.right-aligned {
+	text-align: right;
+}
+
+.center-aligned {
+	text-align: center;
+}
+// Table End
+
 .prose video {
 	border-radius: 10px;
 }
