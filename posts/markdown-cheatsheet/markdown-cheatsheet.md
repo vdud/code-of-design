@@ -11,8 +11,6 @@ series: false
 
 {% youtube id="3RlBfUQCiAQ" title="Animation With Svelte" %}
 
-<!-- {% img src="crossfade.webp" alt="Diagram showing how crossfade works" %} -->
-<!-- {% video src="animate-flip.mp4" %} -->
 <!-- ```html:+page.svelte {2, 13-15} showLineNumbers ```-->
 
 ## Table of Contents
@@ -75,23 +73,11 @@ series: false
 
 ## Link
 
-| Markdown                      | Output                      |
-| ----------------------------- | --------------------------- |
-| `[Link](https://example.com)` | [Link](https://example.com) |
+| Markdown                     | Output                     |
+| ---------------------------- | -------------------------- |
+| `[Link](https://google.com)` | [Link](https://google.com) |
 
 ## Image
-
-| Markdown                                                                   | Output                                                                   |
-| -------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| `{% img src="crossfade.webp" alt="Diagram showing how crossfade works" %}` | {% img src="crossfade.webp" alt="Diagram showing how crossfade works" %} |
-
-## Table
-
-| Markdown | Output |
-| -------- | ------ | ------ | --- | --- | ------ | ------ | --- |
-| `        | Header | Header | `   |     | Header | Header |     |
-| `        | ---    | ---    | `   |     | ---    | ---    |
-| `        | Cell   | Cell   | `   |     | Cell   | Cell   |     |
 
 ## Inline Code
 
@@ -155,3 +141,8 @@ series: false
 | -------- | ------ |
 | `<div>`  | <div>  |
 | `</div>` | </div> |
+
+## Audio Video
+
+{% img src="crossfade.webp" alt="Diagram showing how crossfade works" %}
+{% video src="animate-flip.mp4" %}
