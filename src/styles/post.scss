@@ -49,7 +49,11 @@
 	text-underline-offset: 4px;
 
 	color: var(--blue);
+	padding: 5px 10px;
+	border-radius: 5px;
+	background-color: var(--primaryTheme);
 	text-shadow: none;
+	text-shadow: var(--textShadows);
 	margin: 0 4px;
 }
 
