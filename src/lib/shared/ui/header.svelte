@@ -33,7 +33,7 @@
 		color: var(--primaryTheme);
 
 		box-shadow: var(--shadow-md);
-		background-color: var(--tertiaryTheme);
+		background-color: var(--black);
 		backdrop-filter: blur(5px);
 		-webkit-backdrop-filter: blur(5px);
 
