@@ -32,7 +32,8 @@
 		margin: 2vw;
 		color: var(--primaryTheme);
 
-		box-shadow: var(--shadow-lg);
+		box-shadow: var(--shadow-md);
+		background-color: var(--tertiaryTheme);
 		backdrop-filter: blur(5px);
 		-webkit-backdrop-filter: blur(5px);
 

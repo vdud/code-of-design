@@ -34,7 +34,7 @@
 		inset: 0;
 		/* background-image: var(--post-overlay-bg); */
 		background-image: var(--post-overlay-bg);
-		/* background-color: #0004; */
+		background-color: #0006;
 		backdrop-filter: blur(50px);
 		-webkit-backdrop-filter: blur(50px);
 		z-index: -1;
