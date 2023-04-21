@@ -15,13 +15,13 @@ series: false
 
 [Official Svelte Documentation](https://svelte.dev/docs): This is the best place to start learning Svelte. The official documentation covers everything from getting started, tutorial, API reference, and examples.
 
-### How Reading the Docs changed my life..
+- ### How Reading the Docs changed my life..
 
 Embrace the Power of Reading the Docs: The Significance of Official Svelte Documentation
 
 In today's fast-paced world of software development, it is more crucial than ever to stay well-informed about the latest tools and technologies at your disposal. One of the most effective ways to do so is by diving deep into the official documentation of the tools and frameworks you use, such as Svelte. The official Svelte documentation is a treasure trove of knowledge, meticulously crafted to ensure you have a comprehensive understanding of the framework's capabilities and best practices.
 
-### Why the Official Svelte Documentation Matters
+- ### Why the Official Svelte Documentation Matters
 
 The official Svelte documentation serves as the primary source of truth for developers, providing an in-depth and accurate account of the framework's features, functionality, and conventions. By emphasizing the importance of reading the docs, you are actively nurturing a culture of continuous learning and improvement within the developer community.
 
