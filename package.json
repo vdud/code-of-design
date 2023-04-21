@@ -39,7 +39,6 @@
 	"dependencies": {
 		"@rgossiaux/svelte-headlessui": "^1.0.2",
 		"@rgossiaux/svelte-heroicons": "^0.1.2",
-		"@supabase/supabase-js": "^2.21.0",
 		"@vercel/analytics": "^0.1.11",
 		"gray-matter": "^4.0.3",
 		"lite-youtube-embed": "^0.2.0",
