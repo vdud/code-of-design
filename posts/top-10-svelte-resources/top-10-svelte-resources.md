@@ -21,7 +21,7 @@ Embrace the Power of Reading the Docs: The Significance of Official Svelte Docum
 
 In today's fast-paced world of software development, it is more crucial than ever to stay well-informed about the latest tools and technologies at your disposal. One of the most effective ways to do so is by diving deep into the official documentation of the tools and frameworks you use, such as Svelte. The official Svelte documentation is a treasure trove of knowledge, meticulously crafted to ensure you have a comprehensive understanding of the framework's capabilities and best practices.
 
-`Why the Official Svelte Documentation Matters`
+### Why the Official Svelte Documentation Matters
 
 The official Svelte documentation serves as the primary source of truth for developers, providing an in-depth and accurate account of the framework's features, functionality, and conventions. By emphasizing the importance of reading the docs, you are actively nurturing a culture of continuous learning and improvement within the developer community.
 
@@ -41,7 +41,7 @@ In conclusion, the official Svelte documentation is an indispensable resource fo
 
 [Svelte Society](https://sveltesociety.dev/): A community-driven website that features articles, guides, video courses, and other resources for Svelte developers.
 
-### Building a Strong Community: Harnessing the Power of Svelte Society and Beyond
+### Building a Strong Community
 
 A thriving community is the lifeblood of any technology or framework, and Svelte is no exception. By fostering a sense of camaraderie and collaboration, developers can enrich their understanding of Svelte, share knowledge, and contribute to the collective growth of the ecosystem. One such platform at the heart of this mission is Svelte Society, but the possibilities for building a vibrant community extend far beyond a single website.
 
