@@ -183,6 +183,8 @@ However, there are some differences between them. Sapper uses Express as its ser
 
 Overall, both frameworks are easy to learn and have good performance, so the choice between them will largely depend on personal preference and the specific needs of the project.
 
+I personally recommend SvelteKit because it has more room for growth and is more actively maintained than Sapper.
+
 ## Udemy
 
 [Svelte 3 Course on Udemy](https://www.udemy.com/course/sveltejs-the-complete-guide/): A comprehensive Udemy course by Maximilian Schwarzmüller that covers Svelte from basics to advanced concepts.
