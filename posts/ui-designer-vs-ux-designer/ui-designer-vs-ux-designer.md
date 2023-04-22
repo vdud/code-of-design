@@ -2,8 +2,8 @@
 title: UI Designer vs UX Designer
 description: A UI designer and a UX designer are two different roles in the design industry. But what are the differences between them? Let's find out.
 slug: ui-designer-vs-ux-designer
-published: 2022-9-22
-category: svelte
+published: 2023-4-22
+category: design-industry
 series: false
 ---
 
