@@ -7,7 +7,7 @@ category: design-industry
 series: false
 ---
 
-# Top 10 Svelte Resources
+# UI Designer vs UX Designer
 
 ## Table of Contents
 

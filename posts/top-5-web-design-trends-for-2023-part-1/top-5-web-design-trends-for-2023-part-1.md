@@ -1,13 +1,13 @@
 ---
 title: The Top 5 Web Design Trends for 2023, Stay Ahead of the Curve - Part 1
-description: Web design trends are constantly evolving. In this article, we will explore the top 10 web design trends for 2023 and how they will impact the design industry. and This is the part 1 of 2 Series
+description: Web design trends are constantly evolving. In this article, we will explore the top 10 web design trends for 2023 and how they will impact the design industry, and This is the part 1 of 2 Series.
 slug: top-5-web-design-trends-for-2023-part-1
 published: 2023-1-1
 category: design-industry
 series: false
 ---
 
-# Top 10 Svelte Resources
+# The Top 5 Web Design Trends for 2023, Stay Ahead of the Curve - Part 1
 
 ## Table of Contents
 
