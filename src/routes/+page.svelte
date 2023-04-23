@@ -83,8 +83,8 @@
 		font-size: 1.3rem;
 	}
 	.email_h3 {
-		background-color: var(--white);
-		color: var(--black);
+		background-color: var(--primaryThemeInverted);
+		color: var(--primaryTheme);
 		border-radius: 5px;
 		text-shadow: none;
 		margin: 0 3px;
