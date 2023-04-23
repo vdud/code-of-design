@@ -49,6 +49,7 @@
 		<div class="newsletter">
 			<h2>Subscribe for updates</h2>
 			<Newsletter />
+			<h3 class="h3">also add <span class="email_h3"> codeofdesign@outlook.com </span> to your contact list, otherwise the mail will go to spam.</h3>
 		</div>
 	</section>
 
@@ -78,6 +79,17 @@
 </main>
 
 <style>
+	.h3 {
+		font-size: 1.3rem;
+	}
+	.email_h3 {
+		background-color: var(--white);
+		color: var(--black);
+		border-radius: 5px;
+		text-shadow: none;
+		margin: 0 3px;
+		padding: 0 3px;
+	}
 	.mainPage {
 		padding: 0 10px;
 		padding-bottom: 3rem;
