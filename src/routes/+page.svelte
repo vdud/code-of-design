@@ -4,7 +4,7 @@
 	import Newsletter from '$lib/shared/ui/newsletter.svelte';
 	import Posts from '$lib/shared/ui/posts.svelte';
 
-	import { siteDescription, siteImage, siteName, siteTitle, siteUrl, twitter, twitterHandle } from '$lib/api/config';
+	import { siteDescription, siteImage, siteName, siteTitle, siteUrl } from '$lib/api/config';
 	// import { onMount } from 'svelte';
 
 	export let data;
@@ -23,7 +23,7 @@
 	<meta content={siteDescription} property="og:description" />
 	<meta content={siteName} property="og:site_name" />
 
-	<meta content={twitterHandle} name="twitter:creator" />
+	<!-- <meta content={twitterHandle} name="twitter:creator" /> -->
 	<meta content="summary_large_image" name="twitter:card" />
 	<meta content={siteTitle} name="twitter:title" />
 	<meta content={siteDescription} name="twitter:description" />

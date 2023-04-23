@@ -1,14 +1,14 @@
 export const siteName = 'Code Of Design';
-export const siteUrl = 'https://joyofcode.xyz/';
+export const siteUrl = 'https://codeofdesign.xyz/';
 export const siteTitle = 'Code Of Design';
 export const siteDescription = 'Digital garden growing curious minds with articles about HTML, CSS, JavaScript and things related to web development and design.';
 export const siteImage = `${siteUrl}social.png`;
 export const postImage = 'https://social-share-images.vercel.app/';
 
-export const twitterHandle = '@joyofcodedev';
-export const twitter = 'https://twitter.com/joyofcodedev';
-export const youtube = 'https://www.youtube.com/c/joyofcodedev';
-export const github = 'https://github.com/mattcroat';
+// export const twitterHandle = '@joyofcodedev';
+// export const twitter = 'https://twitter.com/joyofcodedev';
+// export const youtube = 'https://www.youtube.com/c/joyofcodedev';
+// export const github = 'https://github.com/mattcroat';
 
 export const api = 'https://api.github.com';
 export const owner = 'vdud';

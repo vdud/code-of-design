@@ -3,7 +3,7 @@
 	import Clipboard from './clipboard.svelte';
 	import Overlay from './overlay.svelte';
 
-	import { fileUrl, postImage, siteName, siteUrl, twitterHandle } from '$lib/api/config';
+	import { fileUrl, postImage, siteName, siteUrl } from '$lib/api/config';
 
 	export let data;
 
@@ -22,7 +22,7 @@
 	<meta content={data.frontmatter.description} property="og:description" />
 	<meta content={siteName} property="og:site_name" />
 
-	<meta content={twitterHandle} name="twitter:creator" />
+	<!-- <meta content={twitterHandle} name="twitter:creator" /> -->
 	<meta content="summary_large_image" name="twitter:card" />
 	<meta content={data.frontmatter.title} name="twitter:title" />
 	<meta content={data.frontmatter.description} name="twitter:description" />
