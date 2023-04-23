@@ -78,11 +78,10 @@
 	}
 
 	button {
-		padding: var(--spacing-8);
+		padding: 2px;
 		color: var(--clr-input-txt);
 		background-color: var(--clr-primary);
 		font-weight: 700;
-		border-radius: 0 var(--rounded-4) var(--rounded-4) 0;
 	}
 
 	button :global(svg) {

@@ -81,6 +81,10 @@
 <style>
 	.h3 {
 		font-size: 1.3rem;
+		color: var(--primaryThemeInverted);
+	}
+	h2 {
+		color: var(--primaryThemeInverted);
 	}
 	.email_h3 {
 		background-color: var(--primaryThemeInverted);
