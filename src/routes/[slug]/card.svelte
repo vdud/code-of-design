@@ -3,7 +3,7 @@
 
 	import Newsletter from '$lib/shared/ui/newsletter.svelte';
 
-	import { twitter } from '$lib/api/config';
+	// import { twitter } from '$lib/api/config';
 </script>
 
 <div class="card">
