@@ -61,9 +61,9 @@ Components in Svelte are written in .svelte files, which combine HTML, CSS, and 
 
 The HTML section defines the structure and layout of the component. It includes standard HTML tags, as well as custom Svelte-specific syntax, such as directives and bindings, which enable dynamic updates and interactions with the component's state.
 
-Example
+`Example`
 
-```
+```html:index.html
 <!-- MyComponent.svelte -->
 <div>
   <h1>Hello, {name}!</h1>
