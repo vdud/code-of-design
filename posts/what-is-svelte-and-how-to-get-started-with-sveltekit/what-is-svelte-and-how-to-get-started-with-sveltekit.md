@@ -63,8 +63,7 @@ The HTML section defines the structure and layout of the component. It includes 
 
 `Example`
 
-```html:index.html
-<!-- MyComponent.svelte -->
+```html:MyComponent.svelte
 <div>
   <h1>Hello, {name}!</h1>
   <button on
@@ -78,7 +77,7 @@ The CSS section is responsible for styling the component. It defines the visual 
 
 Example:
 
-```html
+```html:MyComponent.svelte
 <style>
 	h1 {
 		color: blue;
@@ -96,7 +95,7 @@ The JavaScript section defines the component's behavior and manages its state. I
 
 Example:
 
-```html
+```html:MyComponent.svelte
 <script>
 	let name = 'World';
 
@@ -122,7 +121,7 @@ In Svelte, reactivity is achieved by using reactive assignments, which are denot
 
 Example:
 
-```javascript
+```html:+page.svelte
 <script>let count = 0; let doubledCount = 0; $: doubledCount = count * 2;</script>
 ```
 
@@ -134,7 +133,7 @@ Reactive statements are similar to reactive assignments but allow for more compl
 
 Example:
 
-```javascript
+```html:+page.svelte
 <script>
   let count = 0;
 
@@ -152,8 +151,12 @@ Reactive declarations are a shorthand way to create reactive assignments. Instea
 
 Example:
 
-```javascript
-<script>import {writable} from 'svelte/store'; const count = writable(0); const doubledCount = $count * 2;</script>
+```html:+page.svelte
+<script>
+import {writable} from 'svelte/store';
+const count = writable(0);
+const doubledCount = $count * 2
+</script>
 ```
 
 In this example, `doubledCount` will automatically update whenever the value of the `count` store changes.
@@ -192,7 +195,7 @@ To set up a new SvelteKit project, follow these step-by-step instructions:
 
 Ensure that you have Node.js (version 12.x or higher) installed on your system. Open a terminal or command prompt, and run the following command to install the SvelteKit package globally:
 
-```
+```bash:terminal
 npm install -g create-svelte@next
 ```
 
@@ -200,19 +203,19 @@ npm install -g create-svelte@next
 
 Use the `create-svelte` command to create a new SvelteKit project, replacing `my-sveltekit-app` with your desired project name:
 
-```
+```bash:terminal
 create-svelte my-sveltekit-app
 ```
 
 Navigate to your newly created project directory:
 
-```
+```bash:terminal
 cd my-sveltekit-app
 ```
 
 ### Install dependencies Run the following command to install the necessary dependencies for your SvelteKit project:
 
-```
+```bash:terminal
 npm install
 ```
 
@@ -220,7 +223,7 @@ npm install
 
 Run the following command to start the SvelteKit development server:
 
-```
+```bash:terminal
 npm run dev
 ```
 
@@ -251,7 +254,7 @@ You can configure your SvelteKit application by modifying the `svelte.config.js`
 
 Once you have finished developing your application, you can build it for production using the following command:
 
-```
+```bash:terminal
 npm run build
 ```
 
