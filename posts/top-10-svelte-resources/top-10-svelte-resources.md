@@ -3,7 +3,7 @@ title: Top 10 Svelte Resources
 description: This is a list of the top 10 Svelte resources.
 slug: top-10-svelte-resources
 published: 2022-9-22
-category: svelte
+category: Svelte
 series: false
 ---
 
