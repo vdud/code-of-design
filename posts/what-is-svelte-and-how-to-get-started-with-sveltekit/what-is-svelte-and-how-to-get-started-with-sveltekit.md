@@ -179,17 +179,17 @@ SvelteKit is the official framework for building Svelte applications, designed t
 
 Here are some key features of SvelteKit:
 
-1. Server-Side Rendering (SSR): SvelteKit allows developers to perform server-side rendering, which means that the HTML content of the application is generated on the server before being sent to the client. This results in faster load times, improved search engine optimization (SEO), and better compatibility with social media sharing and link previews.
+1. **Server-Side Rendering (SSR):** SvelteKit allows developers to perform server-side rendering, which means that the HTML content of the application is generated on the server before being sent to the client. This results in faster load times, improved search engine optimization (SEO), and better compatibility with social media sharing and link previews.
 
-2. Static Site Generation (SSG): SvelteKit also supports static site generation, which is the process of rendering a site's pages ahead of time, during the build process. This enables the creation of fast and highly performant static sites that can be easily deployed to a variety of hosting services. Static sites are a great fit for projects like blogs, documentation sites, and marketing pages.
+2. **Static Site Generation (SSG):** SvelteKit also supports static site generation, which is the process of rendering a site's pages ahead of time, during the build process. This enables the creation of fast and highly performant static sites that can be easily deployed to a variety of hosting services. Static sites are a great fit for projects like blogs, documentation sites, and marketing pages.
 
-3. Flexible file-based routing: SvelteKit features a file-based routing system, which allows developers to create routes for their application by simply organizing their Svelte components into a hierarchical folder structure. This approach simplifies the routing process and makes it easier to understand and manage the application's structure.
+3. **Flexible file-based routing:** SvelteKit features a file-based routing system, which allows developers to create routes for their application by simply organizing their Svelte components into a hierarchical folder structure. This approach simplifies the routing process and makes it easier to understand and manage the application's structure.
 
-4. Built-in development server: SvelteKit includes a built-in development server that provides features like hot module replacement (HMR), which allows developers to see their changes in real-time without having to refresh the page manually. This speeds up the development process and improves the overall developer experience.
+4. **Built-in development server:** SvelteKit includes a built-in development server that provides features like hot module replacement (HMR), which allows developers to see their changes in real-time without having to refresh the page manually. This speeds up the development process and improves the overall developer experience.
 
-5. Adapter system: SvelteKit's adapter system enables developers to easily deploy their applications to various hosting platforms, such as Vercel, Netlify, and even custom servers. Adapters are plugins that handle the build output and deployment process, ensuring a smooth transition from development to production.
+5. **Adapter system:** SvelteKit's adapter system enables developers to easily deploy their applications to various hosting platforms, such as Vercel, Netlify, and even custom servers. Adapters are plugins that handle the build output and deployment process, ensuring a smooth transition from development to production.
 
-6. API routes: SvelteKit supports the creation of API routes, which allows developers to build serverless functions and backend logic directly within their application. This simplifies the process of creating full-stack applications, as both frontend and backend logic can be managed in a single codebase.
+6. **API routes:** SvelteKit supports the creation of API routes, which allows developers to build serverless functions and backend logic directly within their application. This simplifies the process of creating full-stack applications, as both frontend and backend logic can be managed in a single codebase.
 
 By offering these features, SvelteKit streamlines the development and deployment process for Svelte applications, making it easier for developers to build, test, and deploy their projects. Its built-in tools, such as server-side rendering, static site generation, and a flexible file-based routing system, cater to a wide range of use cases and ensure that Svelte applications are fast, performant, and easy to maintain.
 
@@ -203,17 +203,20 @@ To set up a new SvelteKit project, follow these step-by-step instructions:
 
 Ensure that you have Node.js (version 12.x or higher) installed on your system. Open a terminal or command prompt, and run the following command to install the SvelteKit package globally:
 
-```bash:terminal
-npm install -g create-svelte@next
-```
-
-### Create a new SvelteKit project
-
-Use the `create-svelte` command to create a new SvelteKit project, replacing `my-sveltekit-app` with your desired project name:
+I use `pnpm` instead of `npm` because it's faster and more efficient.
 
 ```bash:terminal
-create-svelte my-sveltekit-app
+npm create svelte@latest my-sveltekit-app
 ```
+
+### Setup a new project
+
+- Select `Skeleton project` as the starter template,
+- Then Select `TypeScript` as the language. (I prefer TypeScript over JavaScript)
+- Select `EsLint` as the linter.
+- Select `Prettier` as the formatter.
+- Select `Playwright` as the testing framework.
+- Select `Vitest` as the unit testing.
 
 Navigate to your newly created project directory:
 
