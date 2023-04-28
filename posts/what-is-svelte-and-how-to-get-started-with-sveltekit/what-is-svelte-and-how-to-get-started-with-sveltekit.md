@@ -15,6 +15,10 @@ series: false
 
 In the modern era of web development, there has been a surge of powerful frameworks and libraries designed to simplify the creation of web applications. Among these, Svelte stands out as a truly unique and game-changing tool. In this article, we'll explore the innovative world of Svelte, its key features, and how you can get started with SvelteKit – the official framework for building Svelte applications. As you progress through this guide, you'll gain a solid understanding of Svelte's capabilities and learn how to harness its power to build blazingly fast and highly interactive web applications. So, let's dive into the remarkable realm of Svelte and SvelteKit, and begin your journey towards becoming a proficient Svelte developer!
 
+Check out this video from Rich Harris, filled with his vision for Svelte and SvelteKit.
+👇🏽
+{% youtube id="AdNJ3fydeao" title="Thinking Reactivity from youtube" %}
+
 When covering Svelte and SvelteKit, here are some key points you should address:
 
 ## **What is Svelte**
@@ -122,7 +126,11 @@ In Svelte, reactivity is achieved by using reactive assignments, which are denot
 Example:
 
 ```html:+page.svelte
-<script>let count = 0; let doubledCount = 0; $: doubledCount = count * 2;</script>
+<script>
+  let count = 0;
+  let doubledCount = 0;
+  $: doubledCount = count * 2;
+</script>
 ```
 
 In this example, `doubledCount` will automatically update whenever `count` changes, and the DOM will be updated accordingly.
@@ -153,9 +161,9 @@ Example:
 
 ```html:+page.svelte
 <script>
-import {writable} from 'svelte/store';
-const count = writable(0);
-const doubledCount = $count * 2
+  import {writable} from 'svelte/store';
+  const count = writable(0);
+  const doubledCount = $count * 2
 </script>
 ```
 
