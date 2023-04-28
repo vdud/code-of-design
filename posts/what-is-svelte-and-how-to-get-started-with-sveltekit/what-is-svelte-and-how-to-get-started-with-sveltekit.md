@@ -187,9 +187,21 @@ Example:
 ```html:+page.svelte showLineNumbers
 <script>
   import {writable} from 'svelte/store';
-  const count = writable(0);
-  const doubledCount = $count * 2
+  export const count = writable(0);
+  $: doubledCount = $count * 2
+
+	const addToCount = () => {
+		$count ++
+	}
 </script>
+
+count: {$count} <br/>
+doubledCount: {doubledCount} <br/>
+
+<button on:click="{addToCount}" >
+	Add
+</button>
+
 ```
 
 In this example, `doubledCount` will automatically update whenever the value of the `count` store changes.
