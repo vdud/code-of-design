@@ -67,7 +67,7 @@ The HTML section defines the structure and layout of the component. It includes 
 
 `Example`
 
-```html:MyComponent.svelte
+```html:MyComponent.svelte showLineNumbers
 <div>
   <h1>Hello, {name}!</h1>
   <button on
@@ -81,7 +81,7 @@ The CSS section is responsible for styling the component. It defines the visual 
 
 Example:
 
-```html:MyComponent.svelte
+```html:MyComponent.svelte showLineNumbers
 <style>
 	h1 {
 		color: blue;
@@ -99,7 +99,7 @@ The JavaScript section defines the component's behavior and manages its state. I
 
 Example:
 
-```html:MyComponent.svelte
+```html:MyComponent.svelte showLineNumbers
 <script>
 	let name = 'World';
 
@@ -125,7 +125,7 @@ In Svelte, reactivity is achieved by using reactive assignments, which are denot
 
 Example:
 
-```html:+page.svelte
+```html:+page.svelte showLineNumbers
 <script>
   let count = 0;
   let doubledCount = 0;
@@ -141,7 +141,7 @@ Reactive statements are similar to reactive assignments but allow for more compl
 
 Example:
 
-```html:+page.svelte
+```html:+page.svelte showLineNumbers
 <script>
   let count = 0;
 
@@ -159,7 +159,7 @@ Reactive declarations are a shorthand way to create reactive assignments. Instea
 
 Example:
 
-```html:+page.svelte
+```html:+page.svelte showLineNumbers
 <script>
   import {writable} from 'svelte/store';
   const count = writable(0);
