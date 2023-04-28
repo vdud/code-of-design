@@ -138,10 +138,24 @@ Example:
 
 ```html:+page.svelte showLineNumbers
 <script>
-  let count = 0;
-  let doubledCount = 0;
-  $: doubledCount = count * 2;
+   let count = 0;
+   let doubledCount = 0;
+
+	const addCount = () => {
+		count ++
+	}
+
+   $: doubledCount = count * 2;
+	$: sum = doubledCount + count
 </script>
+
+<p>
+   {count} + {doubledCount} = {sum}
+</p>
+
+<button on:click={addCount}>
+	Add Count
+</button>
 ```
 
 In this example, `doubledCount` will automatically update whenever `count` changes, and the DOM will be updated accordingly.
