@@ -21,6 +21,8 @@ In the modern era of web development, there has been a surge of powerful framewo
 
 ### Backend Performance
 
+---
+
 {% img src="backend.webp" alt="Svelte Performance BackEnd" %}
 
 ### Rethinking Reactivity
@@ -80,8 +82,7 @@ The HTML section defines the structure and layout of the component. It includes 
 ```html:MyComponent.svelte showLineNumbers
 <div>
   <h1>Hello, {name}!</h1>
-  <button on
-  click={handleClick}>Click me</button>
+  <button on:click={handleClick}>Click me</button>
 </div>
 ```
 
