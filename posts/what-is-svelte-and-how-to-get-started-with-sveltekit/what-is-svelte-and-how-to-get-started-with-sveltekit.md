@@ -9,6 +9,8 @@ series: false
 
 # What is Svelte and How to get started with SvelteKit
 
+{% youtube id="fHx_URplLfI" title="Get Started with Svelte-Kit" %}
+
 ## Table of Contents
 
 ## Introduction
