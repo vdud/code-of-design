@@ -260,3 +260,15 @@ Now make a function that use css to animate the progress of task
 		}
 	});
 ```
+
+now add them to the `<label>` tag of both todos and done boxes
+
+Change the `<label>` tag of both the divs to the following
+
+```html:+page.svelte
+<label in:recieve={{ key: todo.id }} out:send={{ key: todo.id }}>
+```
+
+Hope you Enjoyed the tutorial
+If you have any question or suggestion, please comment on the youtube video.
+Thankyou.
