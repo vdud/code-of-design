@@ -13,16 +13,24 @@ series: false
 
 ## Install SvelteKit
 
-[Install Node.js](https://nodejs.org/en/download/) if you haven't already. Then, install the SvelteKit CLI globally:
+Install NodeJs to use node package manager
+
+Go to [NodeJs](https://nodejs.org/en/download/) and download the latest version of NodeJs.
+
+Or you go to my full guide on [How to Install NodeJs](https://www.codeofdesign.xyz/how-to-install-nodejs)
 
 ```bash:terminal
-npm create svelte@latest Svelte-ToDo-List
-cd Svelte-ToDo-List
+npm create latest@svelte todo-list
+cd todo-list
 npm install
 npm run dev
 ```
 
-Add the `--host` flag to `npm run dev` to allow access from other devices on your network.
+Add `--host` tag after `npm run dev` to run the app in your local network.
+
+```bash:terminal
+npm run dev --host
+```
 
 ## Create a todo list
 
