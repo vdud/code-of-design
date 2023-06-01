@@ -97,7 +97,7 @@
 	.mainPage {
 		padding: 0 10px;
 		padding-bottom: 3rem;
-		/* background-color: var(--tertiaryTheme); */
+		/* background-color: red; */
 		/* box-shadow: var(--shadow-lg);
 		backdrop-filter: blur(5px); */
 

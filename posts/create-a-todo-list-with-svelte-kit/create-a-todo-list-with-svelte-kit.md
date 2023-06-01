@@ -32,7 +32,7 @@ Add `--host` tag after `npm run dev` to run the app in your local network.
 npm run dev --host
 ```
 
-## Create a todo list
+## HTML Setup of Todo List
 
 Firstly Open up the +page.svelte file and add the following Html code:
 
@@ -69,7 +69,7 @@ Now almost all of the html is done, now we need to add some java script function
 
 Let's start with `keydown` & `inputValue` as these 2 are for the Input value that we are going to put in to add the todos, It also includes `Add` function to add it to the list.
 
-## JavaScript Functionality
+## Adding JavaScript Functionality to Todo List
 
 Start with adding `<script lang="ts">` tag on top of the component
 
@@ -114,7 +114,7 @@ Then Right after that add this `add` function
 	};
 ```
 
-## CSS Engine
+## CSS Styling of Todo List
 
 Let's just add some simple css to make more understandable.
 
