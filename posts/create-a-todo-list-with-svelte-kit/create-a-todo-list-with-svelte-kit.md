@@ -7,7 +7,7 @@ category: svelte
 series: false
 ---
 
-# Default Setup File
+# Create a Todo List with SvelteKit
 
 ## Table of Contents
 

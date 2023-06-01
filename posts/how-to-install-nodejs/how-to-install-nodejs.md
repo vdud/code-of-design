@@ -7,7 +7,7 @@ category: nodejs
 series: false
 ---
 
-# Get Started with SvelteKit
+# How to Install Nodejs
 
 ## Table of Contents
 

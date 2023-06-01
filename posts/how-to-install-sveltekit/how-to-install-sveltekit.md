@@ -7,7 +7,7 @@ category: svelte
 series: false
 ---
 
-# Get Started with SvelteKit
+# How to Install SvelteKit
 
 ## Table of Contents
 
