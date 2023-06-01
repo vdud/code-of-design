@@ -1,15 +1,15 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
+	// import { onMount } from 'svelte';
 
-	onMount(() => {
-		var elems = document.getElementsByClassName('header');
-		var confirmIt = function (e: any) {
-			if (!confirm('Are you sure you want to go to Home Page?')) e.preventDefault();
-		};
-		for (var i = 0, l = elems.length; i < l; i++) {
-			elems[i].addEventListener('click', confirmIt, false);
-		}
-	});
+	// onMount(() => {
+	// 	var elems = document.getElementsByClassName('header');
+	// 	var confirmIt = function (e: any) {
+	// 		if (!confirm('Are you sure you want to go to Home Page?')) e.preventDefault();
+	// 	};
+	// 	for (var i = 0, l = elems.length; i < l; i++) {
+	// 		elems[i].addEventListener('click', confirmIt, false);
+	// 	}
+	// });
 </script>
 
 <header>
