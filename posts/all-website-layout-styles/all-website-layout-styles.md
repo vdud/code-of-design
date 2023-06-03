@@ -1,6 +1,6 @@
 ---
 title: All Website Layout Styles
-description: In this captivating YouTube video, "All Website Layout Styles," viewers are taken on an exhilarating visual journey through a comprehensive showcase of various website layout styles. From classic and minimalist designs to bold and modern arrangements, this video explores the diversity and creativity found in website layouts.
+description: In this captivating YouTube video viewers are taken on an exhilarating visual journey through a comprehensive showcase of various website layout styles. From classic and minimalist designs to bold and modern arrangements, this video explores the diversity and creativity found in website layouts.
 slug: all-website-layout-styles
 published: 2023-4-30
 category: svelte
@@ -35,6 +35,7 @@ Examples of where to apply Single Column Layout:
 
 1. [loonatiks](https://loonatiks.gr)
 2. [laneandco](https://www.laneandco.design)
+3. [mabiloft](https://mabiloft.com)
 
 In summary, the single column layout offers a clean and focused design approach suitable for personal blogs, portfolios, landing pages, mobile-friendly websites, and single-page websites. Its simplicity and readability make it an effective choice for presenting content in a straightforward and engaging manner.
 
@@ -61,6 +62,8 @@ Examples of Where to Apply Full Screen Layout:
 ### Examples of Full Screen Layout
 
 1. [Enhance.design](https://www.enhance.design/saas/)
+2. [lacremamalta](https://lacremamalta.com)
+3. [morfo.rest](https://www.morfo.rest)
 
 In summary, Full Screen Layouts are ideal for websites that aim to create a visually immersive experience, such as photography portfolios, creative agency portfolios, landing pages, multimedia-rich websites, and event websites. This layout style allows content to occupy the entire screen, resulting in a captivating and engaging user experience.
 
@@ -92,6 +95,7 @@ Examples of Where to Apply Split Screen Layout:
 ### Examples of Split Screen Layout
 
 1. [Stack Overflow](https://stackoverflow.com/)
+2. [theencyclawpedia](https://theencyclawpedia.com)
 
 Remember, the split screen layout can be customized and adapted to fit various types of websites and content, depending on the specific goals and requirements of the project.
 
@@ -124,7 +128,10 @@ Examples of where to apply the F-Shaped Layout:
 5. Email Newsletters:
    When designing email newsletters, utilizing the F-Shaped Layout can help increase engagement and readability. Placing the most important information, such as the main headline or offer, at the top and arranging supporting content along the F pattern ensures that subscribers quickly grasp the main message and encourages them to continue reading.
 
-   ### Examples of F-Shaped Layout
+### Examples of F-Shaped Layout
+
+1. [The New York Times](https://www.nytimes.com/)
+2. [moneycontrol](https://www.moneycontrol.com)
 
 By applying the F-Shaped Layout in these contexts, web designers can optimize the visual hierarchy of their content, improve usability, and enhance the overall user experience by aligning with users' natural reading behaviors.
 
@@ -151,6 +158,7 @@ Examples of Where to Apply Z-Shaped Layout:
 ### Examples of Z-Shaped Layout
 
 1. [Svelte.dev](https://svelte.dev/)
+2. [offermarketingagency](https://offermarketingagency.com)
 
 By utilizing the Z-shaped layout in these examples, designers can leverage the natural eye movement patterns of users to create visually engaging and effective web experiences.
 
@@ -212,5 +220,8 @@ Examples of Where to Apply Asymmetrical Layout:
    Asymmetrical layouts can be utilized to create impactful landing pages or call-to-action sections. By strategically placing key elements asymmetrically, designers can draw attention to important messages or actions. This technique can help increase user engagement and conversion rates by directing the user's focus to specific areas of the page.
 
 ### Examples of Asymmetrical Layout
+
+1. [ignasimonreal](https://www.ignasimonreal.com)
+2. [meetthewmn](https://www.meetthewmn.com)
 
 In each of these examples, asymmetrical layouts add an element of visual intrigue, uniqueness, and creativity. Designers can leverage this style to break free from conventional design norms and create captivating web experiences that leave a lasting impression on visitors.
