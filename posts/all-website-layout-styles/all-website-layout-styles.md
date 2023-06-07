@@ -191,6 +191,7 @@ Examples of Where to Apply Fixed Nav & Sidebar Layout:
 
 1. [Spotify](https://www.spotify.com/)
 2. [YouTube](https://www.youtube.com/)
+3. [Wassup.world](https://wassup.world/)
 
 The Fixed Nav & Sidebar Layout is a versatile design style that offers improved navigation and accessibility across various types of websites. By keeping essential elements visible and easily accessible, this layout ensures a smooth and user-friendly browsing experience.
 
