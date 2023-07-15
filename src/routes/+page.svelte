@@ -160,11 +160,6 @@
 		border-bottom: 1px solid var(--clr-hero-divider-bg);
 		margin: var(--spacing-32) 0;
 	}
-
-	.newsletter p {
-		color: var(--clr-hero-txt);
-	}
-
 	.newsletter h2 {
 		font-size: var(--font-24);
 	}
